@@ -1,0 +1,32 @@
+.auth-container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    background-color: white;
+    width: 500px;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.form-group{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+button{
+    background-color: rgb(43, 56, 244);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}

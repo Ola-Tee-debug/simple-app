@@ -1,0 +1,60 @@
+.dashboard{
+    gap: 20px;
+    margin: 0;
+    background-color: whitesmoke;
+    width: 100vh;
+    margin-top: -15px;
+    height: 100vh;
+    width: 210vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.dashboard-header{
+    display: flex;
+    margin-top: -15px;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    flex-direction: row;
+}
+.heading{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    width: 980px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    background: white;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.quick{
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+}
+.car{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: linear-gradient(90deg, blue, purple);
+}
+.auth-container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    width: 500px;;
+    gap: 10px;
+    padding: 10px;
+    
+    
+}
+.form-group{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+button{
+    background-color: rgb(43, 56, 244);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+.p1{
+    text-align: center;
+    margin-top: 10px;
+}
